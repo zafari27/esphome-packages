@@ -1,7 +1,7 @@
 substitutions:
   domain: ".local"
   ap_password: "12345678"
-  api_key: ""
+  api_key: "dC0tsoAOC2tahqfUq/Vup5U0s1P3QmZ401AeQuB5G1w="
   ota_password: ""
 
 # Default config
