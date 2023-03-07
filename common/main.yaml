@@ -1,0 +1,32 @@
+substitutions:
+  domain: ".local"
+  ap_password: "12345678"
+  api_key: ""
+  ota_password: ""
+
+# Default config
+esphome:
+  name: ${name}
+  friendly_name: ${friendly_name}
+  platformio_options:
+    upload_speed: 2000000
+
+# Enable Home Assistant API
+api:
+  encryption:
+    key: ${api_key}
+
+# Enable logger with DEBUG level
+logger:
+
+# Enable OTA
+ota:
+  password: ${ota_password}
+
+# Enable WiFi default access point
+wifi:
+  ssid: ${wifi_ssid}
+  password: ${wifi_password}
+  domain: ${domain}
+  ap:
+    password: ${ap_password}
